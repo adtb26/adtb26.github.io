@@ -72,7 +72,7 @@ const Home = () => {
 
           <a
             className="resume-button"
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1O1yQN9FbeZykJGQOefEwjCPUbtV5CgOw/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
