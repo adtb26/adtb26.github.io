@@ -34,11 +34,11 @@ const Works = () => {
 
           <div className="gd-grid-2">
             <figure className="gd-item">
-              <img src={flyer} alt="Tailgate flyer" />
+              <img src={merch} alt="Merch design" />
             </figure>
 
             <figure className="gd-item">
-              <img src={merch} alt="Merch design compilation" />
+              <img src={flyer} alt="Tailgate flyer" />
             </figure>
           </div>
         </div>
