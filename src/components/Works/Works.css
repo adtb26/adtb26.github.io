@@ -44,6 +44,7 @@
 
 .gd-grid-2 .gd-item {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   min-width: 0;
