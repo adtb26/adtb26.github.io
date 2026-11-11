@@ -43,19 +43,15 @@
 }
 
 .gd-grid-2 .gd-item {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
   min-width: 0;
   margin: 0;
+  aspect-ratio: 3/4;
 }
 
 .gd-grid-2 .gd-item img {
-  position: static;
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   aspect-ratio: auto;
   object-fit: contain;
 }
