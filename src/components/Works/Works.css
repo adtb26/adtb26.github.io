@@ -43,11 +43,12 @@
 }
 
 .gd-grid-2 .gd-item {
+  position: relative;
   min-width: 0;
   margin: 0;
 }
 
-.gd-grid-2 img {
+.gd-grid-2 .gd-item img {
   position: static;
   display: block;
   width: 100%;
