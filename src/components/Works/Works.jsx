@@ -5,7 +5,7 @@ import holiday from '../../assets/gd-img/holiday-post.webp'
 import halloween from '../../assets/gd-img/halloween-post.webp'
 import collab from '../../assets/gd-img/andrews-assist.webp'
 import product from '../../assets/gd-img/productpost.webp'
-import tailgate from '../../assets/gd-img/flyer.webp'
+import flyer from '../../assets/gd-img/flyer.webp'
 import merch from '../../assets/gd-img/merch.webp'
 import vindee from '../../assets/ui-img/vindee.webp'
 
@@ -34,7 +34,7 @@ const Works = () => {
 
           <div className="gd-grid-2">
             <figure className="gd-item">
-              <img src={tailgate} alt="Tailgate flyer" />
+              <img src={flyer} alt="Tailgate flyer" />
             </figure>
 
             <figure className="gd-item">
