@@ -92,6 +92,15 @@
   }
 }
 
+@media (max-width: 540px) {
+  .works h2 {
+    font-size: clamp(13px, 3.7vw, 16px);
+    line-height: 1.6;
+    letter-spacing: 0;
+    overflow-wrap: normal;
+  }
+}
+
 @media (max-width: 420px) {
   .gd-grid-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Works.css'
 
 import holiday from '../../assets/gd-img/holiday-post.webp'

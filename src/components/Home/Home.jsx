@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Home.css'
 
 import canva from '../../assets/canva.svg'
@@ -7,8 +7,8 @@ import photoshop from '../../assets/photoshop.svg'
 import premiere from '../../assets/premiere.svg'
 
 const tools = [
-  { name: 'Canva', src: figma },
-  { name: 'Figma', src: canva },
+  { name: 'Figma', src: figma },
+  { name: 'Canva', src: canva },
   { name: 'Photoshop', src: photoshop },
   { name: 'Premiere Pro', src: premiere },
 ]
@@ -45,20 +45,6 @@ const FolderLink = ({ href, children }) => (
 const Home = () => {
   return (
     <div id="home">
-      <header className="site-header">
-        <div className="header-dots" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-        </div>
-
-        <nav className="site-nav" aria-label="Main navigation">
-          <a className="nav-home" href="#home">Home</a>
-          <a href="#works">Works</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-
       <section className="section home">
         <div className="home-content">
           <h1>
